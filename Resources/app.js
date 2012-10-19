@@ -33,12 +33,11 @@ Titanium.UI.setBackgroundImage('iphone/Default.png');
 	var headline2 = Ti.UI.createLabel({
 		text:'Layout: horizontal',
 		color:'#fff',
-		font:{fontSize:23,fontWeight:'Bold'},
+		font:{fontSize:20,fontWeight:'Bold'},
 		shadowColor:'#000',
 		shadowOffset:{x:1,y:1},
-		top:0,
-		textAlign:'center',
-		height:45
+		top:10,
+		textAlign:'center'
 	});	
 	
 	var radioGroup = radioButton.createGroup({
@@ -54,16 +53,14 @@ Titanium.UI.setBackgroundImage('iphone/Default.png');
 		radioItemsHeight:34
 	});
 	
-	
 	var headline3 = Ti.UI.createLabel({
 		text:'Layout: vertical',
 		color:'#fff',
-		font:{fontSize:23,fontWeight:'Bold'},
+		font:{fontSize:20,fontWeight:'Bold'},
 		shadowColor:'#000',
 		shadowOffset:{x:1,y:1},
-		top:0,
-		textAlign:'center',
-		height:45
+		top:10,
+		textAlign:'center'
 	});		
 	var radioGroup2 = radioButton.createGroup({
 		groupId:1,
@@ -78,12 +75,24 @@ Titanium.UI.setBackgroundImage('iphone/Default.png');
 		radioItemsHeight:34
 	});	
 	
+	
+	var button = Ti.UI.createButton({
+		title:'Get value'
+	});
+	
+	button.addEventListener('singletap', function(e) {
+    		alert("Horizontal radio group: " + radioGroup.selectedValue + "\n Vertical radio group: " + radioGroup2.selectedValue);
+		});
+	
+	
 	win.add(headline);
 	win.add(text);
 	win.add(headline2);
 	win.add(radioGroup);
 	win.add(headline3);
 	win.add(radioGroup2);
+	
+	win.add(button);
 	win.open();
 
 })();
