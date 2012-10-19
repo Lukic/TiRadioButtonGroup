@@ -1,0 +1,32 @@
+Logfile initialized
+[INFO] logfile = /Users/Srdjan/Desktop/Apps/Shoppinglist/root - dev/build.log
+[DEBUG] /Users/Srdjan/Library/Application Support/Titanium/mobilesdk/osx/2.1.3.v20120915120319/android/builder.py simulator Shoppinglist /Users/Srdjan/Desktop/Lukic dev/Lukic/Titanium Androis SDK /Users/Srdjan/Desktop/Apps/Shoppinglist/root - dev nu.lukic.shoppinglist 4 WVGA854 
+[INFO] Building Shoppinglist for Android ... one moment
+[INFO] Titanium SDK version: 2.1.3 (09/15/12 12:03 a77d91c)
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 1 devices/emulators
+[DEBUG] Device connected... (waited 0 seconds)
+[DEBUG] waited 0.020259 seconds on emulator to get ready
+[DEBUG] nu.lukic.shoppinglist installed? True
+[INFO] Fastdev server running, deploying in Fastdev mode
+[INFO] Copying CommonJS modules...
+[INFO] Copying project resources..
+[TRACE] COPYING MODIFIED FILE: /Users/Srdjan/Desktop/Apps/Shoppinglist/root - dev/Resources/ui/windowHandler.js => /Users/Srdjan/Desktop/Apps/Shoppinglist/root - dev/build/android/bin/assets/Resources/ui/windowHandler.js
+[INFO] Tiapp.xml unchanged, skipping class generation
+[DEBUG] Processing Android resource drawables
+[DEBUG] found drawable-long-land-hdpi splash screen at /Users/Srdjan/Desktop/Apps/Shoppinglist/root - dev/Resources/android/images/res-long-land-hdpi/default.png
+[DEBUG] found drawable-long-land-ldpi splash screen at /Users/Srdjan/Desktop/Apps/Shoppinglist/root - dev/Resources/android/images/res-long-land-ldpi/default.png
+[DEBUG] found drawable-long-port-hdpi splash screen at /Users/Srdjan/Desktop/Apps/Shoppinglist/root - dev/Resources/android/images/res-long-port-hdpi/default.png
+[DEBUG] found drawable-long-port-ldpi splash screen at /Users/Srdjan/Desktop/Apps/Shoppinglist/root - dev/Resources/android/images/res-long-port-ldpi/default.png
+[DEBUG] found drawable-notlong-land-hdpi splash screen at /Users/Srdjan/Desktop/Apps/Shoppinglist/root - dev/Resources/android/images/res-notlong-land-hdpi/default.png
+[DEBUG] found drawable-notlong-land-ldpi splash screen at /Users/Srdjan/Desktop/Apps/Shoppinglist/root - dev/Resources/android/images/res-notlong-land-ldpi/default.png
+[DEBUG] found drawable-notlong-land-mdpi splash screen at /Users/Srdjan/Desktop/Apps/Shoppinglist/root - dev/Resources/android/images/res-notlong-land-mdpi/default.png
+[DEBUG] found drawable-notlong-port-hdpi splash screen at /Users/Srdjan/Desktop/Apps/Shoppinglist/root - dev/Resources/android/images/res-notlong-port-hdpi/default.png
+[DEBUG] found drawable-notlong-port-ldpi splash screen at /Users/Srdjan/Desktop/Apps/Shoppinglist/root - dev/Resources/android/images/res-notlong-port-ldpi/default.png
+[DEBUG] found drawable-notlong-port-mdpi splash screen at /Users/Srdjan/Desktop/Apps/Shoppinglist/root - dev/Resources/android/images/res-notlong-port-mdpi/default.png
+[INFO] Waiting for SDCard to become available..
+[INFO] Re-launching application ... Shoppinglist
+[INFO] Launching application ... Shoppinglist
+[TRACE] Launch output: Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=nu.lukic.shoppinglist/.ShoppinglistActivity }
+
+[INFO] Android Emulator has exited
