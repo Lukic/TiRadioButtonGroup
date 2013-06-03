@@ -38,6 +38,7 @@ exports.createGroup = function(arg) {
     			if(i === e.source.id)
     			{
     				_parent.children[i].setImage(arg.radioItemsBackgroundSelectedImage);
+    				_parent.selectedValue = i;
     			}
     			else{
     				_parent.children[i].setImage(arg.radioItemsBackgroundImage);	
